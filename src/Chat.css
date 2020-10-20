@@ -8,7 +8,21 @@
 
 .chat__messages{
     flex: 1;
+    overflow: scroll;
 }
+
+/* hide the scrollbar for chrome, opera, safari */
+.chat__messages::-webkit-scrollbar{
+    display: none;
+}
+
+/* hide the scrollbar for ie, edge, firefox */
+.chat__messages{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
 
 .chat__input{
     color: lightgrey;

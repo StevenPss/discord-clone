@@ -7,18 +7,19 @@ export const appSlice = createSlice({
     channelName: null,
   },
   reducers: {
-    setChannelId: (state, action) => {
+    setChannelInfo: (state, action) => {
       // Redux Toolkit allows us to write "mutating" logic in reducers. It
       // doesn't actually mutate the state because it uses the Immer library,
       // which detects changes to a "draft state" and produces a brand new
       // immutable state based off those changes
-      state.app += action.payload;
+      state.channelId = action.payload.channelId;
+      state.channelName = action.payload.channelName;
     }, 
 
   },
 });
 
-export const { setChannelId } = appSlice.actions;
+export const { setChannelInfo } = appSlice.actions;
 
 // The function below is called a selector and allows us to select a value from
 // the state. Selectors can also be defined inline where they're used instead of

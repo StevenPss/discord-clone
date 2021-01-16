@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^7.2.1",
     "autoprefixer": "^9.8.6",
     "firebase": "^7.24.0",
+    "moment": "^2.29.1",
     "postcss": "^7.0.35",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",

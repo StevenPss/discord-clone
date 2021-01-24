@@ -1,2 +1,32 @@
-.app{
+.rta {
+    position: relative;
+    border-left: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.rta__autocomplete {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(17, 24, 39);
+    border: 1px solid #2e2e2e;
+    border-radius: 5px;
+    color: white;
+}
+
+.rta__autocomplete ul {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.rta__autocomplete li {
+    margin-bottom: 5px;
+    padding: 3px 20px;
+    cursor: pointer;
+}
+
+.rta__autocomplete li:hover {
+    background-color:rgba(31, 41, 55);
 }

@@ -28,7 +28,7 @@ A discord clone implemented using [ReactJS](https://reactjs.org/).
 
 All contributions are welcomed! (but please submit an issue to make sure the PR is warranted first)
 
-![screenshot](https://github.com/StevenPss/discord-clone/tree/dev/src/static/demo.png)
+![screenshot](https://github.com/StevenPss/discord-clone/blob/dev/src/static/demo.png)
 
 ## Installation
 

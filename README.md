@@ -28,6 +28,7 @@ A discord clone implemented using [ReactJS](https://reactjs.org/).
 
 All contributions are welcomed! (but please submit an issue to make sure the PR is warranted first)
 
+![screenshot](https://github.com/StevenPss/discord-clone/tree/dev/src/static/demo.png)
 
 ## Installation
 
@@ -80,6 +81,7 @@ Please bare with me while I learn as I build. So, most of the time things don't 
 - [Firebase](https://firebase.google.com/)
 - [Emoji Mart](https://www.npmjs.com/package/emoji-mart)
 - [React TextArea AutoComplete](https://www.npmjs.com/package/@webscopeio/react-textarea-autocomplete)
+- [Article by Dylan Iqbal on Add emoji support](https://morioh.com/p/2b1a49e4b53f)
 
 
 ## Contact

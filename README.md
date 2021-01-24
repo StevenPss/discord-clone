@@ -1,68 +1,94 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<h1 align="center">Discord Clone</h1>
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+<h2>
+   <a href="https://discord-clone-948e1.web.app/">
+   Demo
+   </a>
+</h2>
 
-### `npm start`
+A discord clone implemented using [ReactJS](https://reactjs.org/).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/StevenPss/discord-clone/blob/dev/LICENSE)
+<img src="https://img.shields.io/badge/developed%20by-StevenPss-blue.svg">
+[![Follow on GitHub](https://img.shields.io/github/followers/StevenPss?label=Follow&style=social)](https://github.com/StevenPss)
+<img src="https://img.shields.io/github/stars/StevenPss/discord-clone.svg?style=flat">
+<img src="https://img.shields.io/github/languages/top/StevenPss/discord-clone.svg"/>
+[![issues](https://img.shields.io/github/issues/StevenPss/discord-clone.svg)](https://github.com/StevenPss/discord-clone/issues)
+[![issues](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/StevenPss/discord-clone/pulls)
 
-### `npm test`
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</div>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Discord Clone
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+All contributions are welcomed! (but please submit an issue to make sure the PR is warranted first)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![screenshot](https://github.com/StevenPss/discord-clone/blob/dev/src/static/demo.png)
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone this repo
+    ```zsh
+    ~ git clone https://github.com/StevenPss/discord-clone
+    ```
+2. Access your project directory 
+   ```zsh
+    ~ cd discord-clone
+   ```
+3. Install dependencies
+   ```zsh
+    ~ npm install
+   ```
+4. Run the app
+   ```zsh
+    ~ npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Built With
 
-## Learn More
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [ReactJS](https://reactjs.org/)
+- [Firebase](https://firebase.google.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features
 
-### Code Splitting
+<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+- [X] Chat
+- [x] Emojis
+- [ ] Voice Call
+- [ ] Video Call
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Please bare with me while I learn as I build. So, most of the time things don't work as expected. (hehe)
 
-### Making a Progressive Web App
+*(Started to look at something called [**WebRTC**](https://webrtc.org/) that will allow me to implement the voice and video calls. So, I'll soon implement these.)*
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Acknowledgements
 
-### Advanced Configuration
+<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- [ReactJS](https://reactjs.org/)
+- [Firebase](https://firebase.google.com/)
+- [Emoji Mart](https://www.npmjs.com/package/emoji-mart)
+- [React TextArea AutoComplete](https://www.npmjs.com/package/@webscopeio/react-textarea-autocomplete)
+- [Article by Dylan Iqbal on Add emoji support](https://morioh.com/p/2b1a49e4b53f)
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## Contact
 
-### `npm run build` fails to minify
+- GitHub [@StevenPss](https://github.com/StevenPss)
+- Twitter [@StevenSelolo](https://twitter.com/StevenSelolo)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## License
+
+This project is an open-sourced software licensed under the [MIT license](https://github.com/StevenPss/discord-clone/blob/dev/LICENSE).

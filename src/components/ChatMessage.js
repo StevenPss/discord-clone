@@ -26,7 +26,7 @@ function ChatMessage() {
         <div class="bg-gray-700 flex-1 flex flex-col justify-between">
             <div class="chat text-sm text-gray-400 overflow-y-auto">
                 {message.map(message => (
-                    <Message 
+                    <Message
                         message={message.message}
                         user={message.user}
                         timestamp={message.timestamp}

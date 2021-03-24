@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
 import { selectChannelId, selectChannelName } from '../features/appSlice';
-import db from '../firebase';
-import firebase from 'firebase';
+import db from '../services/firebase';
 import Message from './Message';
 import Chat from './Chat';
 

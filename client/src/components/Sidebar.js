@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
-import db, { auth } from '../firebase';
+import db, { auth } from '../services/firebase';
 import SidebarChannel from './SidebarChannel';
 import AddIcon from '@material-ui/icons/Add';
 

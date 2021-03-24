@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
 import { selectChannelId, selectChannelName } from '../features/appSlice';
-import db from '../firebase';
+import db from '../services/firebase';
 import firebase from 'firebase';
 import 'emoji-mart/css/emoji-mart.css'
 import { Picker, emojiIndex } from 'emoji-mart'
